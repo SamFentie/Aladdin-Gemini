@@ -1,0 +1,127 @@
+.sidebar{
+    min-height: 100vh;
+    min-width: 270px;
+    max-width: 270px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+button{
+    margin-top: 10px !important;
+    margin-right:10px !important ;
+    outline: none !important; 
+}
+.sidebartrue{
+    max-width: 20px;
+    height: 100vh;
+    padding: 25px 15px;
+}
+.sidebartrue img{
+    width: 20px;
+    position: absolute;
+}
+.sidebartrue .menu{
+    display: block;
+    margin-left:  10px;
+    cursor: pointer;
+}
+.sidebar img{
+    width: 20px;
+}
+.text-input{
+    width: 90%;
+    height: 4vh;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: gray;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.subjects{
+        display: none;
+    }
+.subjectsextend{
+    display: inline;
+    margin-top: 10px;
+}
+.categories{
+    display: none;
+}
+.categoriesextend{
+display: inline;
+margin-top: 10px;
+}
+.side-appeartrue{
+    display: none;
+}
+.Grade button{
+    width: 98%;
+}
+.Grade{
+    max-height: 15vh;
+    overflow-y: scroll;
+}
+
+.type-btn.extend{
+    background-color: rgb(25, 86, 239) !important;
+    color: white;
+}
+.types{
+    display: none;
+}
+.types.extend{
+    max-height: 30vh;
+    overflow-y: scroll;
+    display: inline;
+}
+.Category button{
+    width: 98%;
+}
+.Category{
+    max-height: 15vh;
+    overflow-y: scroll
+}
+.gradeSelected{
+    background-color: rgb(25, 143, 239) !important;
+    color: white;
+    width: 80%;
+}
+.categorySelected{
+    background-color: rgb(25, 143, 239) !important;
+    color: white;
+    width: 80%;
+}
+.subject{
+ background-color: rgb(239, 222, 249);
+ width: fit-content !important;
+ margin: 3px;
+ margin-top: 20px;
+}
+.subject.extend{
+    background-color: rgb(245, 23, 127) !important;
+    color: white;
+}
+.category_{
+    background-color: rgb(239, 222, 249);
+    width: fit-content !important;
+    margin: 3px;
+    margin-top: 20px;
+   }
+.category_.extend{
+       background-color: rgb(245, 23, 127) !important;
+       color: white;
+   }
+.bottom-info{
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+}
+.bottom.true{
+display: none;
+}
